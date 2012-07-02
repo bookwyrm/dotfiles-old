@@ -1,0 +1,3 @@
+# Make Activity window open with all sites collapsed by default
+#    from: http://hints.macworld.com/article.php?story=2012062809141258
+defaults write com.apple.Safari ActivitiesStartExpanded -boolean NO
