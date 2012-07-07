@@ -49,6 +49,10 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 
 " Or use vividchalk
 set background=dark
+" solarized options 
+" let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
 colorscheme solarized
 
 " Tab mappings.
