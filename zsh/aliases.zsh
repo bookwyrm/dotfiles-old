@@ -1,4 +1,5 @@
 alias rake='noglob rake'
+alias linkchecker='noglob linkchecker'
 alias reload!='. ~/.zshrc'
 
 # Utility
