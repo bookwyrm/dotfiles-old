@@ -1,3 +1,6 @@
 [submodule "vim/janus.symlink/zencoding"]
 	path = vim/janus.symlink/zencoding
 	url = http://github.com/mattn/zencoding-vim.git
+[submodule "vim/janus.symlink/ragtag"]
+	path = vim/janus.symlink/ragtag
+	url = https://github.com/tpope/vim-ragtag.git
