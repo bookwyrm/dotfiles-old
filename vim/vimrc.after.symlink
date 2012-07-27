@@ -21,7 +21,7 @@ cnoremap          <C-D> <Del>
 inoremap <silent> <C-F> <C-R>=col('.')>strlen(getline('.'))?"\<Lt>C-F>":"\<Lt>Right>"<CR>
 inoremap          <C-E> <End>
 cnoremap          <C-F> <Right>
-" Get Up and Down keybindings to ease transition from Textmate
+" Get Up and Down keybindings to ease transition from TextMate
 inoremap          <C-P> <Up>
 inoremap          <C-N> <Down>
 
@@ -54,3 +54,5 @@ function! <SID>StripTrailingWhitespaces()<CR>
   let @/=_s
   call cursor(l,c)
 endfunction
+
+set spellfile=~/.janus/spellfile.add
