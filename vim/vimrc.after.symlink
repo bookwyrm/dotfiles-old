@@ -34,3 +34,6 @@ set antialias
 set encoding=utf-8
 
 colorscheme sunburst
+
+vmap <D-]> >gv
+vmap <D-[> <gv
