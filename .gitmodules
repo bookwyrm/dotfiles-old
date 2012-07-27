@@ -4,3 +4,6 @@
 [submodule "vim/janus.symlink/ragtag"]
 	path = vim/janus.symlink/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+[submodule "vim/janus.symlink/sunburstvim"]
+	path = vim/janus.symlink/sunburstvim
+	url = https://github.com/tangphillip/SunburstVIM.git
