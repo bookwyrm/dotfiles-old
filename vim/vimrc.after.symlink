@@ -24,3 +24,13 @@ cnoremap          <C-F> <Right>
 " Get Up and Down keybindings to ease transition from Textmate
 inoremap          <C-P> <Up>
 inoremap          <C-N> <Down>
+
+" Invisibles support from vimcasts: http://vimcasts.org/episodes/show-invisibles/
+nmap <leader>l :set list!<CR>
+set listchars=tab:▸\ ,eol:¬
+
+set guifont=Menlo:h13
+set antialias
+set encoding=utf-8
+
+colorscheme sunburst
