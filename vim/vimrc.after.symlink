@@ -43,7 +43,7 @@ if has("autocmd")
 endif
 
 nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
-function! <SID>StripTrailingWhitespaces()<CR>
+function! <SID>StripTrailingWhitespaces()
   " Preparation: save last search and cursor position
   let _s=@/
   let l = line(".")
