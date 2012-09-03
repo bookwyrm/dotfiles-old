@@ -1,0 +1,17 @@
+min () {
+  if [ ! -f $1 ]; then
+    echo "'$1' is not a valid file"
+    return 
+  fi
+
+  #echo "Not working yet..., try:"*/
+  #return*/
+
+  if [ ${1: -3} != '.js' ]; then
+    echo "'$1' is not a JS file"
+    return
+  fi
+
+  java -jar "/usr/local/Cellar/closure-compiler/20120710/libexec/build/compiler.jar" --js $1 --js_output_file ${1%.js}.min.js
+
+}
