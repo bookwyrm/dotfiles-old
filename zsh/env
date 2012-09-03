@@ -1,5 +1,14 @@
 export EDITOR=vim
 export SVN_EDITOR=vim
 export PATH=~/bin:/usr/local/mysql/bin:/usr/local/share/python:/usr/local/bin:/usr/local/sbin:$PATH
+export CLOSURE_PATH=/usr/local/Cellar/closure-compiler/20120710/libexec
+
+# Local Perl libs
+export PERL_LOCAL_LIB_ROOT="/Users/matt/perl5";
+export PERL_MB_OPT="--install_base /Users/matt/perl5";
+export PERL_MM_OPT="INSTALL_BASE=/Users/matt/perl5";
+export PERL5LIB="/Users/matt/perl5/lib/perl5/darwin-thread-multi-2level:/Users/matt/perl5/lib/perl5";
+export PATH="/Users/matt/perl5/bin:$PATH";
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
