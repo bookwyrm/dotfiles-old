@@ -7,3 +7,6 @@
 [submodule "vim/janus.symlink/sunburstvim"]
 	path = vim/janus.symlink/sunburstvim
 	url = https://github.com/tangphillip/SunburstVIM.git
+[submodule "vim/janus.symlink/buffer-explorer"]
+	path = vim/janus.symlink/buffer-explorer
+	url = https://github.com/widox/vim-buffer-explorer-plugin.git
