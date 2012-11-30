@@ -29,6 +29,9 @@ inoremap          <C-N> <Down>
 nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 
+" Alternate escape from insert mode to avoid escape key
+inoremap jk <Esc>
+
 set guifont=Menlo:h13
 set antialias
 set encoding=utf-8
