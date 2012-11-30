@@ -40,6 +40,8 @@
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ;ls = ls-files
   unstage = reset
+  
+  l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
 
   # Must Have Git Aliases: Advanced Examples - be present now
   # http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
