@@ -87,3 +87,8 @@ nmap <C-Down> ddp
 " Bubble multiple lines
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
+
+syntax on
+filetype on
+autocmd BufNewFile,BufRead *.scss set filetype=sass
+
