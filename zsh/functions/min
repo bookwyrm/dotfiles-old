@@ -12,6 +12,6 @@ min () {
     return
   fi
 
-  java -jar "/usr/local/Cellar/closure-compiler/20120710/libexec/build/compiler.jar" --js $1 --js_output_file ${1%.js}.min.js
+  java -jar "/usr/local/Cellar/closure-compiler/20121212/libexec/build/compiler.jar" --js $1 --js_output_file ${1%.js}.min.js
 
 }
